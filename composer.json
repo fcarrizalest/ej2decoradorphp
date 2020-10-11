@@ -1,0 +1,16 @@
+{
+    "name": "fcarr/ej2decorador",
+    "description": "Ejemplo de patron de dise\u0000o decorador en php",
+    "authors": [
+        {
+            "name": "Francisco Carrizales",
+            "email": "fcarrizalest@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "require": {}
+}
