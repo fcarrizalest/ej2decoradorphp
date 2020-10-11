@@ -9,11 +9,9 @@ use App\Filters\createdFilter;
 
 if ($_POST) {
     $user = new User($_POST);
-    
     $nameFilter = new nameFilter($user);
     $statusFilter = new statusFilter($nameFilter);
     $createdFilter = new createdFilter($statusFilter);
-    
     echo $createdFilter->getSql();
 }
 
